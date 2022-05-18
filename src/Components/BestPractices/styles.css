@@ -1,0 +1,35 @@
+.bestpractices {
+  width: 95%;
+  margin: auto;
+}
+
+.bestpractices .heading {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bestpractice {
+  margin: 50px 0;
+}
+
+.bestpractice .description {
+  text-align: center;
+}
+
+.bestpractice .description h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.bestpractice .description h3 span {
+  color: var(--blue);
+}
+
+.bestpractice .description p {
+  font-size: 0.8rem;
+}
+
+.bestpractice .image img {
+  max-width: 100%;
+  max-height: 100%;
+}

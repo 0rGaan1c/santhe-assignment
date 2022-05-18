@@ -1,0 +1,17 @@
+.divider {
+  width: 95%;
+  margin: 40px auto 0 auto;
+  display: flex;
+}
+
+.blue {
+  width: 20px;
+  height: 40px;
+  background-color: var(--blue);
+}
+
+.dc {
+  width: 20px;
+  height: 40px;
+  background-color: #dcdcdc;
+}

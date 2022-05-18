@@ -1,0 +1,25 @@
+.navbar {
+  height: 40px;
+  width: 95%;
+  margin: 8px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .link {
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--blue);
+  padding: 8px;
+  border-radius: 12px;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar .link:hover {
+  color: var(--blue);
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
