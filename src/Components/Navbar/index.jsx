@@ -5,7 +5,7 @@ import "./styles.css";
 const Navbar = ({ buttonText }) => {
   return (
     <nav className="navbar">
-      <Logo logoSize="small" />
+      <Logo logoSize="medium" />
       <a href={`${buttonText}`} className="link">
         for {buttonText}
       </a>

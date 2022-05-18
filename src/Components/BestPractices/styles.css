@@ -3,13 +3,13 @@
   margin: auto;
 }
 
+.bestpractice {
+  margin: 50px 0;
+}
+
 .bestpractices .heading {
   font-weight: 600;
   text-transform: uppercase;
-}
-
-.bestpractice {
-  margin: 50px 0;
 }
 
 .bestpractice .description {

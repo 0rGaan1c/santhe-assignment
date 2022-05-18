@@ -2,7 +2,9 @@ import React from "react";
 import BestPractices from "../../Components/BestPractices";
 import CTA from "../../Components/CTA";
 import Divider from "../../Components/Divider";
+import Footer from "../../Components/Footer";
 import Navbar from "../../Components/Navbar";
+import WhyUseApp from "../../Components/WhyUseApp";
 
 const OwnerPage = () => {
   const ctaContent = {
@@ -17,6 +19,9 @@ const OwnerPage = () => {
       <CTA ctaContent={ctaContent} />
       <Divider />
       <BestPractices />
+      <Divider />
+      <WhyUseApp />
+      <Footer />
     </>
   );
 };

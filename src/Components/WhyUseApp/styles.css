@@ -1,0 +1,21 @@
+.whyuseapp {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+.whyuseapp .heading {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.whyuseapp .reason {
+  background-color: #dcdcdc;
+  padding: 8px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.whyuseapp .reason h3 {
+  font-weight: 600;
+}
