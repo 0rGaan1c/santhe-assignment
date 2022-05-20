@@ -1,7 +1,7 @@
 .cta {
   text-align: center;
   padding: 80px 3px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../../images/cta.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,11 +18,25 @@
 .cta .download-links {
   margin: 40px 0;
 }
+
 .cta .download-links img {
   /* width: 30%; */
   margin-right: 4px;
 }
 
-.rr img {
-  max-width: 100%;
+@media screen and (min-width: 728px) {
+  .cta {
+    padding: 120px;
+    height: 80vh;
+  }
+
+  .cta .heading {
+    font-size: 2rem;
+  }
+
+  .cta .description {
+    width: 50%;
+    margin: 40px auto;
+    font-size: 1.2rem;
+  }
 }

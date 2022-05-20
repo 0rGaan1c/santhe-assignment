@@ -5,15 +5,15 @@ import Divider from "../../Components/Divider";
 import Footer from "../../Components/Footer";
 import Navbar from "../../Components/Navbar";
 import WhyUseApp from "../../Components/WhyUseApp";
-import { ownerCTAData, ownerPracticesData } from "../../data";
+import { dealerCTAData, dealerPracticesData } from "../../data";
 
 const OwnerPage = () => {
   return (
     <>
-      <Navbar buttonText="dealers" />
-      <CTA ctaContent={ownerCTAData} />
+      <Navbar buttonText="owners" />
+      <CTA ctaContent={dealerCTAData} />
       <Divider />
-      <BestPractices bestPracticesContent={ownerPracticesData} />
+      <BestPractices bestPracticesContent={dealerPracticesData} />
       <Divider />
       <WhyUseApp />
       <Footer />

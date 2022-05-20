@@ -2,9 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0 10px 0;
 }
 
 .footer .copyright {
   margin-right: 4px;
+}
+
+@media screen and (min-width: 728px) {
+  .footer {
+    padding: 40px 0 20px 0;
+  }
 }

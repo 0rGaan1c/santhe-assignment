@@ -19,3 +19,33 @@
 .whyuseapp .reason h3 {
   font-weight: 600;
 }
+
+.whyuseapp .reason p {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 728px) {
+  .whyuseapp {
+    width: 90%;
+    text-align: left;
+  }
+
+  .whyuseapp .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .whyuseapp .heading {
+    font-size: 2rem;
+  }
+
+  .whyuseapp .reason {
+    width: 30%;
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  .whyuseapp .reason p {
+    font-size: 1rem;
+  }
+}

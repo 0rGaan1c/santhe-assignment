@@ -5,17 +5,17 @@ import appStoreImage from "../../images/appstore.png";
 import "./styles.css";
 
 const CTA = ({ ctaContent }) => {
-  const { heading, description } = ctaContent;
+  const { heading, description, playStoreLink, appStoreLink } = ctaContent;
   return (
     <section className="cta">
       <h2 className="heading">{heading}</h2>
       <Logo logoSize="big" />
-      <p>{description}</p>
+      <p className="description">{description}</p>
       <div className="download-links">
-        <a href="/">
+        <a href={playStoreLink}>
           <img src={playStoreImage} alt="play store" />
         </a>
-        <a href="/">
+        <a href={appStoreLink}>
           <img src={appStoreImage} alt="app store" />
         </a>
       </div>

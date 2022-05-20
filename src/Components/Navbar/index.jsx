@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import "./styles.css";
 
@@ -6,9 +7,9 @@ const Navbar = ({ buttonText }) => {
   return (
     <nav className="navbar">
       <Logo logoSize="medium" />
-      <a href={`${buttonText}`} className="link">
+      <Link to={`/${buttonText}`} className="link">
         for {buttonText}
-      </a>
+      </Link>
     </nav>
   );
 };
