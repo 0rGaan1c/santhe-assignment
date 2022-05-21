@@ -1,7 +1,7 @@
 export const dealerCTAData = {
   heading: "for dealers",
   description:
-    "Buy used cars by certified owners in an online auction at the best price.",
+    "Buy used cars from certified owners in an online auction and get the best price.",
   playStoreLink: "/dealers",
   appStoreLink: "/dealers",
 };
@@ -26,7 +26,7 @@ export const dealerPracticesData = [
 export const ownerCTAData = {
   heading: "for owners",
   description:
-    "Sell your used car to certified used car dealers in an online auction and get the best price.",
+    "Sell your used car to certified  car dealers in an online auction and get the best price.",
   playStoreLink: "/owners",
   appStoreLink: "/owners",
 };

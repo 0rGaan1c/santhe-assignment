@@ -49,7 +49,7 @@
     margin: 0 0;
   }
 
-  .bestpractice:nth-child(2) .image {
+  .bestpractice:nth-child(odd) .image {
     order: 2;
     margin-bottom: 0;
   }
